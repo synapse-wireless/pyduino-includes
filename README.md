@@ -30,8 +30,8 @@ In order to use the nice IO names, simply import `pyduino-includes` in your SNAP
 from PyduinoIncludes import *
     
 def drive_d4_pin_high():
-    setPinDir(D4 ,True)
-    writePin(D4 ,True)
+    setPinDir(D4, True)
+    writePin(D4, True)
 ```
 
 Pins can be referenced as follows:
