@@ -10,6 +10,10 @@ setup(
     maintainer_email='tyler.crumpton@synapse-wireless.com',
     url='https://git.synapse-wireless.com/tyler.crumpton/pyduino-includes',
     packages=['PyduinoIncludes'],
+    install_requires=['vcversioner'],
+    vcversioner={
+        'version_module_paths': ['PyduinoIncludes/_version.py'],
+    },
     classifiers=[
         'Development Status :: 1 - Planning',
         'Environment :: Console',
