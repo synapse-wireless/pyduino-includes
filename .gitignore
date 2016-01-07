@@ -1,0 +1,7 @@
+PyduinoIncludes/_version.py
+build/
+dist/
+env/
+pyduino_includes.egg-info/
+version.txt
+
