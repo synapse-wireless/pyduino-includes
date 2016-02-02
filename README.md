@@ -11,16 +11,21 @@ It also provides a bit-banged SPI implementation that can be used for shields th
 Installation
 ------------
 
-The easiest way to install `pyduino-includes` is using 
+### For use in Portal
+
+Download and extract the latest release zip file to Portal's `snappyImages` directory. 
+By default, this is located at `...\Documents\Portal\snappyImages` on Windows.
+
+### For use with SNAPbuild
+
+The easiest way to install `pyduino-includes` for use with SNAPbuild is using 
 [pip](https://pip.pypa.io/en/latest/installing.html):
 
-    pip install git+ssh://git@git.synapse-wireless.com/tyler.crumpton/pyduino-includes.git@master
+    pip install git+ssh://git@github.com:synapse-wireless/pyduino-includes.git@master
 
 Alternatively you can download the source, extract it, and install it:
 
     python setup.py install
-    
-(Eventually the package will be pushed to our pip repo, and won't require GitLab access.)
 
 Usage
 -------------
