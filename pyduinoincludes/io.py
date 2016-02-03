@@ -30,6 +30,7 @@ A2 = 4
 A3 = 5
 A4 = 6
 A5 = 7
+SENSE_5V = 2
 
 # User-controlled LED
 LED_PIN = 18
