@@ -51,7 +51,7 @@ Pins can be referenced as follows:
 Setting up the SPI pins is very simple, too:
 
 ```python
-from pyduinoincludes.SPI import *
+from pyduinoincludes.spi import *
 
 def my_spi_function():
     spi_init()  # Sets up the bit-banged SPI

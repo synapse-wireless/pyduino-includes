@@ -1,4 +1,4 @@
-from IO import *
+from io import *
 
 CS = D10
 MOSI = D11
