@@ -4,7 +4,7 @@ SNAPpy Includes for the Pyduino Development Board
 Introduction
 ------------
 
-`pyduino-includes` is a SNAPpy library that is designed to make development for the Synapse Pyduino board easier. It
+`pyduinoincludes` is a SNAPpy library that is designed to make development for the Synapse Pyduino board easier. It
 allows references to the nifty Pyduino IO names (like D3, AD0, or SCL) instead of the underlying SNAPpy GPIO numbers.
 It also provides a bit-banged SPI implementation that can be used for shields that utilize the SPI pins.
 
@@ -18,7 +18,7 @@ By default, this is located at `...\Documents\Portal\snappyImages` on Windows.
 
 ### For use with SNAPbuild
 
-The easiest way to install `pyduino-includes` for use with SNAPbuild is using 
+The easiest way to install `pyduinoincludes` for use with SNAPbuild is using 
 [pip](https://pip.pypa.io/en/latest/installing.html):
 
     pip install git+ssh://git@github.com:synapse-wireless/pyduino-includes.git@master
@@ -30,10 +30,10 @@ Alternatively you can download the source, extract it, and install it:
 Usage
 -------------
 
-In order to use the nice IO names, simply import `pyduino-includes` in your SNAPpy script like this:
+In order to use the nice IO names, simply import `pyduinoincludes` in your SNAPpy script like this:
 
 ```python
-from PyduinoIncludes import *
+from pyduinoincludes import *
     
 def drive_d4_pin_high():
     setPinDir(D4, True)
@@ -51,7 +51,7 @@ Pins can be referenced as follows:
 Setting up the SPI pins is very simple, too:
 
 ```python
-from PyduinoIncludes.SPI import *
+from pyduinoincludes.SPI import *
 
 def my_spi_function():
     spi_init()  # Sets up the bit-banged SPI

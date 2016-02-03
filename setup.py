@@ -4,15 +4,15 @@
 from setuptools import setup
 
 setup(
-    name='pyduino-includes',
+    name='pyduinoincludes',
     description="Basic SNAPpy includes for the Synapse Pyduino wireless meshing development board",
     maintainer='Tyler Crumpton',
     maintainer_email='tyler.crumpton@synapse-wireless.com',
-    url='https://git.synapse-wireless.com/tyler.crumpton/pyduino-includes',
-    packages=['PyduinoIncludes'],
+    url='https://github.com/tylercrumpton/pyduino-includes',
+    packages=['pyduinoincludes'],
     install_requires=['vcversioner'],
     vcversioner={
-        'version_module_paths': ['PyduinoIncludes/_version.py'],
+        'version_module_paths': ['pyduinoincludes/_version.py'],
     },
     classifiers=[
         'Development Status :: 1 - Planning',
