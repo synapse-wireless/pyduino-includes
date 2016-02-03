@@ -43,6 +43,7 @@ Pins can be referenced as follows:
 | Digital  | D0 - D13        |
 | Analog   | A0 - A5         |
 | i2c      | SDA, SCL        |
+} LED pin  | LED_PIN         |
 
 Setting up the SPI pins is very simple, too:
 

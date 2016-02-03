@@ -31,6 +31,9 @@ A3 = 5
 A4 = 6
 A5 = 7
 
+# User-controlled LED
+LED_PIN = 18
+
 # List of pin assignments that can be iterated over in GPIO-order (i.e. GPIO 0 is 16, GPIO 1 is 17, etc...)
 GPIO_TO_IO_LIST = (16,17,20,5,23,6,7,12,0,19,21,37,4,22,9,8)
 
