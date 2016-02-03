@@ -35,6 +35,7 @@ SENSE_5V = 2
 # User-controlled LED
 LED_PIN = 18
 
-# List of pin assignments that can be iterated over in GPIO-order (i.e. GPIO 0 is 16, GPIO 1 is 17, etc...)
-GPIO_TO_IO_LIST = (16,17,20,5,23,6,7,12,0,19,21,37,4,22,9,8)
+# List of pin assignments that can be iterated over in Pyduino-pin-order (i.e. D0 is 16, D1 is 17, etc...)
+DIGITAL_TO_IO_LIST = (16, 17, 20, 5, 23, 6, 7, 12, 0, 19, 21, 37, 4, 22, 9, 8)
+ANALOG_LIST = (A0, A1, A2, A3, A4, A5)
 
