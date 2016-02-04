@@ -10,7 +10,7 @@ It also provides a bit-banged SPI implementation that can be used for shields th
 
 ### For use in Portal
 
-Download and extract the latest release zip file to Portal's `snappyImages` directory. 
+Download and extract the [latest release](https://github.com/synapse-wireless/pyduino-includes/releases) zip file to Portal's `snappyImages` directory. 
 By default, this is located at `...\Documents\Portal\snappyImages` on Windows.
 
 ### For use with SNAPbuild
