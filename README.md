@@ -56,3 +56,6 @@ def my_spi_function():
     spi_write("\x12\x34\x56")  # Write data to the SPI bus
     spi_read(4)  # Read four bytes from the SPI bus
 ```
+
+## License
+This library is available under Apache License version 2.0. See [LICENSE.md](LICENSE.md) for more information.
