@@ -59,3 +59,5 @@ def my_spi_function():
 
 ## License
 This library is available under Apache License version 2.0. See [LICENSE.md](LICENSE.md) for more information.
+
+<!-- meta-tags: vvv-sm220, vvv-pyduino, vvv-spi, vvv-snappy, vvv-library -->
