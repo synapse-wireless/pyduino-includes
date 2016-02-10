@@ -56,3 +56,11 @@ def my_spi_function():
     spi_write("\x12\x34\x56")  # Write data to the SPI bus
     spi_read(4)  # Read four bytes from the SPI bus
 ```
+
+## License
+This library is available under Apache License version 2.0. See [LICENSE.md](LICENSE.md) for more information.
+
+## Contributing
+We love pull requests! For information on contributing to this project, please check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+<!-- meta-tags: vvv-sm220, vvv-pyduino, vvv-spi, vvv-snappy, vvv-library -->
