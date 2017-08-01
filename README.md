@@ -1,6 +1,6 @@
 [![](https://cloud.githubusercontent.com/assets/1317406/12406044/32cd9916-be0f-11e5-9b18-1547f284f878.png)](http://www.synapse-wireless.com/)
 
-#SNAPpy Includes for the Pyduino Development Board
+# SNAPpy Includes for the Pyduino Development Board
 
 `pyduinoincludes` is a SNAPpy library that is designed to make development for the Synapse Pyduino board easier. It
 allows references to the nifty Pyduino IO names (like D3, AD0, or SCL) instead of the underlying SNAPpy GPIO numbers.
